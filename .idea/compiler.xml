@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaBack" />
+        <module name="BackendStage" />
+        <module name="TransferMS" />
+        <module name="GatewayBack" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="APIGateway" target="17" />
+      <module name="APIGatewayBack" target="17" />
+      <module name="BackendStage (2)" target="17" />
+      <module name="eureka-client" target="17" />
+      <module name="EurekaServer" target="17" />
+      <module name="EurekaStage" target="17" />
+      <module name="TPEureka" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGateway" options="-parameters" />
+      <module name="APIGatewayBack" options="-parameters" />
+      <module name="BackendStage" options="-parameters" />
+      <module name="BackendStage (2)" options="-parameters" />
+      <module name="EurekaBack" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="EurekaStage" options="-parameters" />
+      <module name="GatewayBack" options="-parameters" />
+      <module name="TPEureka" options="-parameters" />
+      <module name="TransferMS" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+    </option>
+  </component>
+</project>
